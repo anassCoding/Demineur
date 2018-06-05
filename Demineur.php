@@ -110,7 +110,7 @@ border:  1pt dashed gray; }
 </style>
 </head>
 <body>
-<form method="get" action="mine.php">
+<form method="get" action="Demineur.php">
 	<?php
 	$fini = FALSE;
 
@@ -136,6 +136,6 @@ dessine($_SESSION["tab"], $fini);
 if (!$fini) echo '<button type="submit">Jouer</button>';
 ?>
 </form>
-<a href="mine.php?reset=1">Recommencer</a>
+<a href="Demineur.php?reset=1">Recommencer</a>
 </body>
 </html>
